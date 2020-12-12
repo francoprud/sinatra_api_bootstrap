@@ -16,3 +16,11 @@ Layout/EmptyLineAfterGuardClause:
 
 Naming/MethodParameterName:
   Enabled: false
+
+  # rubocop-rspec custom configurations
+
+require:
+  - rubocop-rspec
+
+RSpec/ExampleLength:
+  Max: 10

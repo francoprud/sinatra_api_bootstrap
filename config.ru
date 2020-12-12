@@ -1,4 +1,4 @@
-require 'sinatra'
-require_relative 'controllers/base'
+require_relative 'api/base'
+require_relative 'api/controllers/status'
 
-map('/') { run Controllers::Base }
+map('/status') { run Api::Controllers::Status }
